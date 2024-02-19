@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+    <div class="container">
+      <img src="./images/image-qr-code.png" />
+      <p class="header">Improve your front-end skills by building projects</p>
+      <p class="subheader">
+        Scan the QR code to visit Frontend Mentor and take your coding to the
+        next level
+      </p>
+    </div>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        background-color: lavenderblush;
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 30%;
+        height: 34%;
+        background-color: white;
+        border-radius: 20px;
+
+        img {
+          width: calc(100% - 30px);
+          padding: 15px;
+          border-radius: 10%;
+        }
+
+        .header {
+          padding: 0 16px;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 900;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .subheader {
+          padding: 0 18px;
+          text-align: center;
+          font-size: 14px;
+          color: gray;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+      }
+    </style>
+  </head>
+</html>
