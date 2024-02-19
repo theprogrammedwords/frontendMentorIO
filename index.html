@@ -30,7 +30,7 @@
         color: hsl(228, 45%, 44%);
       }
       body {
-        background-color: lavenderblush;
+        background-color: hsl(212, 45%, 89%);
         height: 100vh;
         margin: auto;
         display: flex;
@@ -39,13 +39,16 @@
       }
       .container {
         width: 30%;
-        height: 34%;
+        max-width: 360px;
+        min-height: 34%;
         background-color: white;
         border-radius: 20px;
 
         img {
           width: calc(100% - 30px);
-          padding: 15px;
+          max-width: calc(100% - 30px);
+          height: 60%;
+          padding: 1rem;
           border-radius: 10%;
         }
 
